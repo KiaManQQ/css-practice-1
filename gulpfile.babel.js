@@ -31,7 +31,7 @@ gulp.task('scss', () =>{
         OutputStyle: 'compressed'
     }))
     .pipe(postcss(cssPlugins))
-    .pipe(gulp.dest('./docs/scss'));
+    .pipe(gulp.dest('./docs/css'));
 });
 
 gulp.task('default', ()=>{
