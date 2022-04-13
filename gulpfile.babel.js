@@ -18,7 +18,7 @@ gulp.task('pug', () =>{
     return gulp
     .src('./dev/views/pages/*.pug')
     .pipe(pug({
-        pretty: true
+        pretty: false
     }))
     .pipe(gulp.dest('./docs'));
 });
